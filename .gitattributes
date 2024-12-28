@@ -1,0 +1,7 @@
+# Mark CSS files as generated (optional)
+*.css linguist-generated=true
+
+# Force Python as the primary language
+*.py linguist-language=Python
+
+*.css linguist-vendored=true
