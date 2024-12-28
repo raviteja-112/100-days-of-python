@@ -1,0 +1,21 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <style>
+        {% block styling %}
+        body{
+            background: purple;
+        }
+        {% endblock %}
+        </style>
+
+how jinja supported in vscode no red lines 
+changed settings 
+https://stackoverflow.com/questions/57352156/error-property-value-expected-css-and-at-rule-or-selector-expected-css-editi
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html> -->

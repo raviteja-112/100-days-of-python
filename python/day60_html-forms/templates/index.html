@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <style>
+        p{
+            display: inline-block;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <form >
+        <p>Name</p>
+        <input type="text" placeholder="name">
+        <p>Password</p>
+        <input type="text" placeholder="password">
+        <button type="submit">OK</button>
+    </form> -->
+    <!-- <form action="/login" method="post">
+        <label for = "name">Name</label>
+        <input type="text" id = "name" placeholder="name">
+        <label for = "password">Password</label>
+        <input type="text" id = "password" placeholder="password">
+        <button type="submit" value="submit">Ok</button>
+    </form> -->
+
+    <!-- <form action="/login" method="post"> -->
+        <form action="{{url_for('receive_data')}}" method="post">
+        <label>Name</label>
+        <input type="text" placeholder="name" name="name">
+        <label>Password</label>
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">Ok</button>
+    </form>
+</body>
+</html>
+
