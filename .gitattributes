@@ -4,4 +4,8 @@
 # Force Python as the primary language
 *.py linguist-language=Python
 
+# Mark CSS files as vendored
 *.css linguist-vendored=true
+
+# Mark HTML files as vendored (optional)
+*.html linguist-vendored=true
